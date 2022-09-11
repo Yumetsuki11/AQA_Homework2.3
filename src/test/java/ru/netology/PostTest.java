@@ -16,7 +16,7 @@ public class PostTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("amogus"))
+                .body("data", equalTo("フリーダが大好き"))
         ;
     }
 }
